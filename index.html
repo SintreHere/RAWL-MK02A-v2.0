@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>
+        RAWL-MK02A
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body bgcolor="#0E0E59" >
+    <script src="index.js">   </script>
+
+
+<div class="shipbox" >
+    <div class="ship_control">
+<div class="latitudeship">
+    LAT: <span id="lat"> 
+    
+</div>
+<div class="longitudeship">
+    LONG: <span id="long"> 
+</div>
+<div class="systemtime">
+    TIME: <span id="time"> 
+</div>
+<div class="systemdate">
+    DATE: <span id="datetime">
+    <script>
+        var dt = new Date();
+        document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+        </script>
+
+</div>
+<div class="shipcrs">
+   CRS:
+</div>
+<div class="shipspeed">
+    SPD:
+</div>
+
+
+
+</div>
+
+<div class="radar-box-area">
+    <div class="radar-box">
+        
+    </div>
+    <div class="radar-ship-centre">
+       
+       <div class="radar"></div>
+        
+    </div>
+</div>
+<div class="radar-ship-centre-circle">
+    +
+</div>
+</div>
+</body>
+
+</html>

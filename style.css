@@ -1,0 +1,107 @@
+.shipbox{
+    border :2px solid white;
+    width:180px;
+    height: 275px;
+    font-size: medium;
+    font-weight: 50px;
+    display:inline-block;
+  } 
+  .ship_control{
+    display:block;
+  }
+   .latitudeship,.longitudeship,.systemtime,.systemdate,.shipcrs,.shipspeed{
+    margin-top: 15px;
+    margin-left: 15px;
+    border :1px solid white;
+    width:150px;
+    height: 20px;
+    align-items:center;
+    padding-top: 5px;
+    color: antiquewhite ;
+    display:inline-block;
+}
+  .radar-box-area{
+    
+
+  }
+
+  .radar-box{   
+   width: 1150px;
+   height: 1150px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+   border-radius: 50%;
+   background: black;
+   margin-left: 448px;
+   margin-top: -262px;
+
+
+
+  }
+
+  .radar-ship-centre-circle{
+    font-size: 210%;
+    display: inline;
+    position:absolute;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    border: 1.5px solid white;
+    line-height: 16px;
+    color: white;
+    text-align: center;
+
+
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: -584px;
+    margin-left: 1006px;
+    pointer-events: none;
+  overflow-wrap: normal;
+
+  
+
+  }
+
+  .radar{
+ 
+width: 560px;
+height:286.5px;
+margin-top: -1150px;
+   margin-left: 1017px;
+  transform: translateY(-100% );
+  border-bottom: 1.5px solid #0f0; 
+  position: absolute;
+background: linear-gradient(338deg , darkgreen , transparent, transparent);
+animation:5s radarAnim ;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+transform-origin: left bottom;
+
+}
+
+    @keyframes radarAnim {
+      from{
+        transform: translateY(100%) rotate(0deg);
+      }
+      to{
+        transform: translateY(100%) rotate(360deg);
+      }
+    }
+
+
+.target{
+  border :2px solid white;
+    width:180px;
+    height: 275px;
+    font-size: medium;
+    font-weight: 50px;
+    margin-top: 500px;
+    display:inline-block;
+    float: left;
+
+    
+}
+
+
